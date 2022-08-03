@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+:root {
+    --f-family:'Montserrat', sans-serif;
+    --f-size-h1: 3rem;
+    --f-size-h2: 2.875rem;
+    --f-size-h3: 2.5rem;
+    --f-size-h4: 1.75rem;
+    --f-size-h5: 1.5rem;
+    --f-size-h6: 1.25rem;
+    --f-size-medium: 1rem;
+    --f-size-small: .875rem;
+    --f-size-extra-small: .75rem;
+    --f-size-button-large: 19.2px;
+    --f-size-button-medium: 1rem;
+    --f-size-button-small: .831rem;
+    --f-size-label: .75rem;
+    --f-size-placeholder: 1rem;
+    --f-weight-bold: 700;
+    --f-weight-semibold: 600;
+    --f-weight-medium: 500;
+    --l-height-h1: 5rem;
+    --l-height-h2: 4.479rem;
+    --l-height-h3: 3.5rem;
+    --l-height-h4: 2rem;
+    --l-height-h5: 2rem;
+    --l-height-h6: 1.5rem;
+    --l-height-large: 1.5rem;
+    --l-height-medium: 1.2rem;
+    --l-height-small: 1rem;
+    --color-primary-dark: #035182;
+    --color-primary-main: #006db1;
+    --color-primary-light: #008ce3;
+    --color-primary-75: rgba(0, 109, 177, 0.75);
+    --color-primary-50: rgba(0, 109, 177, 0.5);
+    --color-primary-25: rgba(0, 109, 177, 0.25);
+    --color-primary-10: rgba(0, 109, 177, 0.1);
+    --color-secondary-dark: #101e4e;
+    --color-secondary-main: #152864;
+    --color-secondary-light: #24419e;
+    --color-secondary-75: rgba(21, 40, 100, 0.75);
+    --color-secondary-50: rgba(21, 40, 100, 0.5);
+    --color-secondary-25: rgba(21, 40, 100, 0.25);
+    --color-secondary-10: rgba(21, 40, 100, 0.1);
+    --color-grayscale-black: #000;
+    --color-grayscale-grey-dark: #414750;
+    --color-grayscale-grey-light: #6e6e6e;
+    --color-grayscale-white: #fff;
+    --color-info-error: #b20000;
+    --color-info-warning: #e99820;
+    --color-info-hover: #006db1;
+    --color-info-success: #168736;
+}
+
+/* Reset */
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}  
+
+ul,
+ol,
+li,
+a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}    
+input,
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+img,
+picture,
+video,
+iframe,
+figure {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+    color: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+}
+
+form,
+input,
+textarea,
+select,
+button,
+label {
+    appearance: none;
+    background-color: transparent;
+    color:inherit;
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    hyphens: auto;
+}
+
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
