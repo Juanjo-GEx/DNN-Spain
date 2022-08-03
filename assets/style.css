@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+:root {
+    --f-family:'Montserrat', sans-serif;
+    --f-size-h1: 3rem;
+    --f-size-h2: 2.875rem;
+    --f-size-h3: 2.5rem;
+    --f-size-h4: 1.75rem;
+    --f-size-h5: 1.5rem;
+    --f-size-h6: 1.25rem;
+    --f-size-medium: 1rem;
+    --f-size-small: .875rem;
+    --f-size-extra-small: .75rem;
+    --f-size-button-large: 19.2px;
+    --f-size-button-medium: 1rem;
+    --f-size-button-small: .831rem;
+    --f-size-label: .75rem;
+    --f-size-placeholder: 1rem;
+    --f-weight-bold: 700;
+    --f-weight-semibold: 600;
+    --f-weight-medium: 500;
+    --l-height-h1: 5rem;
+    --l-height-h2: 4.479rem;
+    --l-height-h3: 3.5rem;
+    --l-height-h4: 2rem;
+    --l-height-h5: 2rem;
+    --l-height-h6: 1.5rem;
+    --l-height-large: 1.5rem;
+    --l-height-medium: 1.2rem;
+    --l-height-small: 1rem;
+}
