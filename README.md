@@ -10,7 +10,13 @@ Anexada al proyecto se incluye una pequeña guía de estilo para la codificació
 
 Ante la complejidad de visualizar los cambios realizados en la maquetación de la web a través de los módulos de la aplicación en DNN y las soluciones en Visual Studio, se ha optado por crear en VS Code una réplica de la estructura de cada página y aplicarle el *nuevo Theme* para poder visualizar los cambios en vivo y agilizar el proceso de codificación.
 
-**VS Code**
+### DNN
+
+- Inserción de las imágenes del prototipo
+- Actualización de componentes para adaptar el contenido de la web al contenido del prototipo (añadir, modificar o eliminar elementos).
+
+### VS Code
+
 - Montar entorno de desarrollo
 - Aplicar estructura original de las páginas que conforman la web
 - Extracción de estilos del prototipo
@@ -22,7 +28,8 @@ Ante la complejidad de visualizar los cambios realizados en la maquetación de l
 - Estilizado de cada página de la web en todos los dispositivos
 - Testing
 
-**Visual Studio**
+### Visual Studio
+
 - Montar entorno de preproducción
 - Una vez finalizada la codificación de cada página se probará en el entorno de preproducción montado
 
@@ -49,5 +56,5 @@ Según los requisitos del proyecto únicamente se cambiará la capa de presentac
 ## Metodología
 
 Se mantendrá la metodología original para que el resto de capas de la aplicación no se vean afectadas.
-En caso de necesitar modificar algún componente se usará la metodología BEM para el nombrado de clases de la hoja de estilo.
+En caso de necesitar modificar algún componente se usará la metodología BEM (*se detalla en la guía de estilos*) para el nombrado de clases de la hoja de estilo.
 
